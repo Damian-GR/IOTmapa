@@ -1,0 +1,28 @@
+.contenedor{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content:space-around;
+    align-items: center;
+    padding: 5px;
+}
+
+div.col{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+
+div.tabal{
+    align-self: center;
+    justify-self: center;
+}
+
+h2{
+    align-self: center;
+    color: firebrick;
+    text-shadow: 2px 2px wheat;
+}
+

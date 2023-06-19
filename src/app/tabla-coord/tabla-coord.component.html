@@ -1,0 +1,21 @@
+<div class="contenedor">
+  <table class="table table-light table-striped">
+    <thead>
+      <tr>       
+        <th scope="col" >Longitud</th>
+        <th scope="col">Latitud</th>
+        <th scope="col">Hora</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let coord of ListCoor">       
+        <td>{{coord.longitud}}</td>
+        <td>{{coord.latitud}}</td>
+        <td>{{coord.hora}}</td>
+      </tr>   
+    </tbody>
+</table>
+<div class="boton">
+  <input type="button" (click)="reload()" value="Actualizar" class="boton">
+</div>
+</div>

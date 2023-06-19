@@ -1,0 +1,23 @@
+@import url("https://unpkg.com/leaflet@1.9.3/dist/leaflet.css");
+@import url("https://unpkg.com/leaflet-routing-machine@latest/dist/leaflet-routing-machine.css");
+
+.contenedor {
+    margin-top: 20px;
+    width: 65vw;
+}
+
+.map {
+    height: 95vh;
+    box-shadow: 5px 5px 5px #888;
+    border: 5px goldenrod;
+    background-color: cornsilk;
+    border-style: dashed;
+}
+
+.map.visible {
+    opacity: 1;
+}
+
+.btn {
+    margin: 15px;
+}

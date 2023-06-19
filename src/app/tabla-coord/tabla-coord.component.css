@@ -1,0 +1,56 @@
+@import url("https://unpkg.com/leaflet@1.9.3/dist/leaflet.css");
+@import url("https://unpkg.com/leaflet-routing-machine@latest/dist/leaflet-routing-machine.css");
+
+table{
+    width: 30vw;
+    background-color: crimson;
+    border-collapse:separate;
+    border-spacing: 10;
+    border:solid black 1px;
+    border-radius:10px;
+    -moz-border-radius:10px;
+    -webkit-border-radius: 5px; 
+}
+
+.contenedor {
+    width: 600px;
+}
+
+.boton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.map {
+    height: 540px;
+    box-shadow: 5px 5px 5px #888;
+}
+
+.map.visible {
+    opacity: 1;
+}
+
+.btn {
+    margin: 15px;
+}
+
+input.boton{
+    font-size: 25px;
+    width: 10vw;
+    height: 5vh;
+    color: whitesmoke;
+    border: 2px;
+    border-radius: 10px;
+    border-color: crimson;
+    border-style: dashed;
+    background-color: cornflowerblue;
+
+}
+
+input.boton:hover{
+    border-color: cornflowerblue;
+    border-style: dashed;
+    background-color: crimson;
+
+}
